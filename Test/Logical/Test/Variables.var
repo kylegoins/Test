@@ -1,0 +1,3 @@
+VAR
+	TestINT : USINT;
+END_VAR
