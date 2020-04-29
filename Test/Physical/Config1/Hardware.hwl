@@ -1,11 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <BR.AS.HardwareTopology Version="0.0.0.1">
   <TimeStamps>
-    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="04/21/2020 16:01:39" />
+    <TimeStamp LogicalPath="Config1.Hardware.hw" LastWriteTime="04/24/2020 11:07:10" />
   </TimeStamps>
   <Modules>
     <Module Name="PC" Type="PC_any" X="100" Y="100" />
+    <Module Name="5LS189.6-1" Type="5LS189.6-1" X="418" Y="110" />
+    <Module Name="X67BC8513.L12" Type="X67BC8513.L12" X="463" Y="399" />
   </Modules>
-  <Links />
+  <Links>
+    <Link From="5LS189.6-1" To="X67BC8513.L12" FromPort="IF2" ToPort="PLK1" IsRoutedByUser="False">
+      <Point X="459" Y="130" />
+      <Point X="459" Y="130" />
+      <Point X="464" Y="130" />
+      <Point X="473" Y="130" />
+      <Point X="473" Y="398" />
+      <Point X="473" Y="411" />
+      <Point X="473" Y="411" />
+    </Link>
+  </Links>
   <InfoElements />
 </BR.AS.HardwareTopology>

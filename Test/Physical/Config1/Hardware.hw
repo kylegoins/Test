@@ -1,5 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?AutomationStudio Version=4.7.2.98?>
 <Hardware xmlns="http://br-automation.co.at/AS/Hardware">
-  <Module Name="PC" Type="PC_any" Version="1.1.0.0" OrderNumber="PC" />
+  <Module Name="5LS189.6-1" Type="5LS189.6-1" Version="1.4.0.0">
+    <Connection Connector="SL" TargetModule="PC" TargetConnector="SL1" />
+  </Module>
+  <Module Name="PC" Type="PC_any" Version="1.1.0.0" OrderNumber="PC">
+    <Parameter ID="ConfigurationID" Value="Test_Config1" />
+  </Module>
+  <Module Name="X67BC8513.L12" Type="X67BC8513.L12" Version="2.9.3.0">
+    <Connection Connector="PLK1" TargetModule="5LS189.6-1" TargetConnector="IF2">
+      <Cable Type="PowerlinkCable" Length="10" Version="1.0.0.2" />
+    </Connection>
+  </Module>
 </Hardware>
